@@ -21,7 +21,7 @@ You can also follow us on instagram @wonkeen.shop
 
 ## Advent of gophers
 
-During december of 2019 we will upload 21 images that we have been working on during the past few months.
+During december of 2019 we will upload 24 images that we have been working on during the past few months.
 
 ## License
 
