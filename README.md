@@ -7,7 +7,7 @@ believe that gophers are the perfect first approach for that.
 
 We are a group of software engineers with strong, free, and open source values. For that reason, the content that you will find here is under an Attribution Non-Commercial ShareAlike Creative Commons license. 
 
-If you like the idea and you want us to create more content you can support us at [wonkeen.com](wonkeen.com)
+If you like the idea and you want us to create more content you can support us at [wonkeen.com](https://wonkeen.com)
 
 You can also follow us on instagram @wonkeen.shop
 
