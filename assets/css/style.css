@@ -1,0 +1,138 @@
+body {
+    background-color: #152836;
+    color: #eee;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.small {
+    font-size: 11px;
+    color: #999;
+    display: block;
+    margin-top: -10px
+}
+
+.gallery>ul {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.gallery>ul>li {
+    margin: 0 35px 50px 0;
+    width: 350px;
+    display: inline-block;
+    list-style: outside none none;
+    border-radius: 4px;
+}
+
+.gallery>ul>li a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.gallery>ul>li a>img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+    image-rendering: auto;
+}
+
+.gallery>ul>li a:hover>img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+    image-rendering: auto;
+}
+
+.gallery>ul>li a:hover .gallery-poster>img {
+    opacity: 1;
+}
+
+.gallery>ul>li a .gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+    border-radius: 4px;
+}
+
+.gallery>ul>li a .gallery-poster>img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+
+.gallery>ul>li a:hover .gallery-poster {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery .justified-gallery>a>img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+}
+
+.gallery .justified-gallery>a:hover>img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.gallery .justified-gallery>a:hover .gallery-poster>img {
+    opacity: 1;
+}
+
+.gallery .justified-gallery>a .gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+}
+
+.justified-gallery>a .gallery-poster>img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+
+.lg-sub-html {
+    padding: 20px 40px;
+}
+
+.lg-sub-html a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
